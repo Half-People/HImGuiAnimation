@@ -5,6 +5,8 @@
 
 https://github.com/Half-People/HImGuiAnimation/assets/56476339/3abb5369-20f1-4d5c-88d9-b0350d34554d
 
+
+Easy to use (To learn more, please visit the wiki): 
 ```cpp
   
   void Sequencer(int32_t Frame/*current Frame*/, HAnimationSystem::HValue value) //Define callback function (The straight part is convertible)
