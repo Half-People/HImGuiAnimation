@@ -1,4 +1,6 @@
 
+[discord :)](https://discord.gg/2UEwXjNtv8)
+
 # Display of results :
 
 https://github.com/Half-People/HImGuiAnimation/assets/56476339/3abb5369-20f1-4d5c-88d9-b0350d34554d
