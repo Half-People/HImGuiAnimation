@@ -22,6 +22,7 @@ Easy to use (To learn more, please visit the wiki):
   while (...)
   {
 	  ...
+          static float value;
 	  if (ImGui::Button("play"))
 		  HAnimationSystem::Play(Sequencer, 64, &value, &curr, speed, fps, loop); //Play animation (You don’t need to fill in so much data to use it)
 	  ImGui::SliderFloat("Test", &value, 80, 200) //apply testing
