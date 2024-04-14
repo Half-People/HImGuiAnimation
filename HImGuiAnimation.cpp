@@ -38,7 +38,8 @@ void HAnimationSystem::Play(PlayerCallBack::AnimationPlayerCallBack callback, si
 {
 	for (HAnimationSystem::AnimationSequence& Sequence : Sequences)
 	{
-		if (Sequence.getinfo().callback == callback)
+		HAnimationSystem::AnimationSequence::information& info = Sequence.getinfo();
+		if (info.callback == callback && info.data == value)
 			return;
 	}
 	Sequences.push_back(HAnimationSystem::AnimationSequence(FPS, out, value, speed, MaxFrame, IsLoop, callback));
