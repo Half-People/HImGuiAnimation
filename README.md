@@ -1,5 +1,7 @@
 
-[discord :)](https://discord.gg/2UEwXjNtv8)
+- ### [discord :)](https://discord.gg/2UEwXjNtv8)
+- ### [wiki](https://github.com/Half-People/HImGuiAnimation/wiki)
+- ### [Interpolation function sharing](https://github.com/Half-People/HImGuiAnimation/discussions/2)
 
 # Display of results :
 
