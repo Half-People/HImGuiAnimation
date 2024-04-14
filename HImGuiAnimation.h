@@ -126,7 +126,7 @@ namespace HAnimationSystem
 	*	 @param: callback (Animation overprocessed.See AnimationPlayerCallBack comments for details) , MaxFrame (The largest Frame among animations) , value (The value transferred to the callback) , out (Animation sequence returns) , speed (Play speed) ,FPS (Max FPS : Lift (-1) ) , IsLoop (keep looping)
 	* 	 @birth: created by HalfPeople on 2024/4/14
 	*/
-	void Play(PlayerCallBack::AnimationPlayerCallBack callback, size_t MaxFrame, HValue value = nullptr, HAnimationSystem::AnimationSequence** out = 0, float speed = 5, int FPS = 60, bool IsLoop = false);
+	void Play(PlayerCallBack::AnimationPlayerCallBack callback, size_t MaxFrame, HValue value = nullptr, HAnimationSystem::AnimationSequence** out = 0, float speed = 1, int FPS = 60, bool IsLoop = false);
 
 	/*
 	*    - Animation Manager Update (used in main loop)(Manager FPS limit, Animation sequences will be disabled FPS limit)
