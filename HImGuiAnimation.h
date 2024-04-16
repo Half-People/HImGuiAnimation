@@ -76,7 +76,7 @@ namespace HAnimationSystem
 			float FPS_delta_time;
 			//Loop animation
 			bool IsLoop;
-			size_t CurrentFrame, MaxFrame;
+			size_t CurrentFrame=0, MaxFrame=0;
 			//Play speed
 			float speed;
 			//internal code (data transmission)
