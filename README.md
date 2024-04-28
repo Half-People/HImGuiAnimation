@@ -3,7 +3,7 @@
 - ### [wiki](https://github.com/Half-People/HImGuiAnimation/wiki)
 - ### [Interpolation function sharing](https://github.com/Half-People/HImGuiAnimation/discussions/2)
 
-## next update：
+## next update： (Estimated update time : 2024/5/1-10)
 - [ ] Default animation
 
 # Display of results :
